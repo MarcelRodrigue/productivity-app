@@ -1,0 +1,57 @@
+@import "./Global.css";
+
+@media screen and (max-width:770px){
+
+
+
+.home{
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.home p{
+margin: 1rem 0rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+.home h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.Acountability_budy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    float: left;
+}
+.Acountability_budy img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 1px solid var(--primary-clr);
+}
+.Acountability_budy .btn0{
+    border-radius: 25px;
+    transform: scale(.8);
+}
+.Acountability_budy .btn01{
+    border-radius: 25px;
+    transform: scale(.8);
+}
+.get_started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
+
+

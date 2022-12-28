@@ -1,0 +1,129 @@
+@import "./Global.css";
+
+@media screen and (max-width:770px){
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 1.5rem;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+}
+.calendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 1.5rem;
+    gap: 2rem;
+}
+.calendar_top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    background-color: transparent;
+
+}
+.calendar_top .date{
+    background-color: transparent;
+
+}
+.calendar_navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: transparent;
+
+}
+.chevron{
+    font-weight: 900;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 3px solid var(--my-bg-clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+
+}
+.calendar_main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    gap: .5rem;
+    padding: .5rem;
+}
+.calendar_main .num{
+    background-color: transparent;
+    border: 3px solid var(--my-bg-clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    background-color: #fff;
+}
+.calendar_main .active{
+    border: none;
+    background-color: var(--primary-clr);
+    color: #fff;
+}
+.calendar_main .weekDay{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    font-weight: 700;
+}
+.todos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.todo{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1.5rem;
+    background-color: #fff;
+}
+.todo_info ,.todo_state,p,h2{
+    background-color: #fff;
+}
+.todo_info h2{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.todos .btn01{
+    border-radius: 15px;
+    transform: scale(.7);
+}
+.todos .btn0{
+    border-radius: 15px;
+    transform: scale(.7);
+}
+.todo_info{
+    width: 100%;
+}
+.btn1{
+    transform: scale(.8);
+}
+
+
+
+}
