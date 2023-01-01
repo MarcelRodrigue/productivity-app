@@ -4,14 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Global.css">
+    <link rel="stylesheet" href="./newgoal.css">
     <title>Creat goal</title>
 </head>
 <body>
     <div class="container">
         <h1>creat A New Goal</h1>
-        <p>lets go dude</p>
-        <section>
-            
+        <section id="task_creation">
+            <input type="text" id="task_name" placeholder="enter task name">
+            <textarea name="task_description" id="task_descrription" cols="30" rows="10" placeholder="description"></textarea>
+            <h4>start time</h4>
+            <input type="time" name="" id="" placeholder="start time">
+            <h4>stop time</h4>
+            <input type="time" name="" id="" placeholder="stop time">
+            <h3>select task frequency</h3>
+            <select name="frequency" id="task_frequency">
+                <option value="">chose the drequency</option>
+                <option value="daily">daily</option>
+                <option value="weekly">weekly</option>
+              
+            </select>
+            <h3>select validation option</h3>
+            <div class="validation_card">
+
+
+                <div class="validatio_option">
+                    <input type="checkbox" name="send link" id=""><label for="link_option">send link</label>
+                </div>
+                <div class="validatio_option">
+                    <input type="checkbox" name="send link" id=""><label for="link_option">send picture</label>
+                </div>
+            </div>
+           
+            <button class="btn0"><a href="../views/secuired routes/sendRewiew.html">Creat Goal</a></button>
+
+
+
+
+
+
         </section>
   
     
@@ -21,6 +53,8 @@
 
 
 
+
+        
 
 
     </div>

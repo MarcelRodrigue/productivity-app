@@ -21,7 +21,7 @@ nav{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--bg-clr);
     padding: 1.5rem;
     gap: 2rem;
 }
@@ -61,7 +61,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #fff;
+    background-color: var(--bg-clr);
     gap: .5rem;
     padding: .5rem;
 }
@@ -72,15 +72,15 @@ nav{
     justify-content: center;
     align-items: center;
     padding: .5rem;
-    background-color: #fff;
+    background-color: var(--bg-clr);
 }
 .calendar_main .active{
     border: none;
     background-color: var(--primary-clr);
-    color: #fff;
+    color: var(--bg-clr);
 }
 .calendar_main .weekDay{
-    background-color: #fff;
+    background-color: var(--bg-clr);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,10 +100,10 @@ nav{
     align-items: center;
     border-radius: 10px;
     padding: 1.5rem;
-    background-color: #fff;
+    background-color: var(--bg-clr);
 }
 .todo_info ,.todo_state,p,h2{
-    background-color: #fff;
+    background-color: var(--bg-clr);
 }
 .todo_info h2{
     font-size: 1rem;
@@ -124,6 +124,14 @@ nav{
     transform: scale(.8);
 }
 
+.center{
+    justify-content: space-between;
+    gap: 2rem;
+}
 
 
+.center .btn0{
+
+    border-radius: 15px;
+}
 }
