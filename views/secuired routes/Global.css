@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+   background-color: #f1f1f1;
+}
+body{
+   overflow-x: hidden;
+
+}
+:root{
+    --primary-clr:rgb(250, 125, 8);
+    --bg-clr:#ffff;
+    --my-bg-clr:#f1f1f1;
+
+
+}
+.btn0{
+    border: none;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-clr);
+    font-size: 1.1rem;
+    
+}
+.btn0 a{
+    color: var(--bg-clr);
+    background-color: var(--primary-clr);
+}
+.btn01{
+    border: 1px solid var(--primary-clr);
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-clr);
+    font-size: 1.1rem;
+}
+.btn01 a{
+    color: var(--primary-clr);
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+    background-color: var(--primary-clr);
+    border-radius: 50%;
+}
+.btn1 a{
+    background-color: transparent;
+    color: #fff;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+}

@@ -1,0 +1,44 @@
+
+@import "./Global.css";
+
+@media screen and (max-width:770px){
+
+
+    .container{
+        font-family: Arial, Helvetica, sans-serif;
+        gap: 1rem;
+    }
+.validation_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.review_card{
+    border: 1px solid var(--primary-clr);
+    border-radius: 15px;
+
+}
+.review_card img{
+    height: 15rem;
+    width: 100%;
+}
+.sender_info{
+display: flex;
+align-items: center;
+gap: 1.5rem;
+}
+.sender_info img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 1px solid var(--primary-clr);
+    
+}
+.btn01 a{
+    color: var(--primary-clr);
+}
+
+
+}
